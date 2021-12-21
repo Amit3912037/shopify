@@ -1,0 +1,20 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.page{
+    border: 1px solid  #1a1c1f;
+    padding: 10px 20px;
+    margin: 20px ;
+    background-color: #6c757d;
+    color: white;
+    cursor: pointer;
+
+}
+.page:hover{
+    background-color: #373e44;
+}
+#active__page{
+    background-color: rgb(59, 88, 250);
+
+}

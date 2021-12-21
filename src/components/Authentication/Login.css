@@ -1,0 +1,83 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.login__logo {
+  margin: 20px 0;
+  object-fit: contain;
+  width: 100px;
+  background-color: white;
+}
+.login__container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  background-color: white;
+}
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.login__container > form > label {
+  margin-top: 10px;
+  display: inline-block;
+}
+.credentials__input {
+  height: 30px;
+  background-color: white;
+  width: 98%;
+  border: 1px solid gray;
+}
+.invalid__input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__mainButton {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 25px;
+  border-color: #0146ad;
+  cursor: pointer;
+}
+.login__alternateButton {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #0146ad;
+  cursor: pointer;
+}
+.login__mainButton:hover:enabled{
+  background-color: #357de9;
+}
+.login__alternateButton:hover:enabled
+{
+  background-color: #357de9;
+}
+.error-text {
+  color: #b40e0e;
+  margin: 0;
+  font-size: 12px;
+}
+button:disabled {
+  background-color: #ccc;
+  color: #292929;
+  border: #ccc;
+  cursor: not-allowed;
+}
